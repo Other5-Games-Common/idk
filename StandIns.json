@@ -1,0 +1,1566 @@
+﻿{
+    "Version":  1,
+    "Plugin":  "idk",
+    "StandIns":  [
+                     {
+                         "Package":  "/idk/Maps/LowerSectorKit",
+                         "Class":  "World",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_Emiss_blue",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_FlickerlIght",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_FlickerlIght1",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_Glass",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_Hose_temp",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_NewMaterial",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_NewMaterial1",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_NewMaterial2",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_NewMaterial3",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_NewMaterial4",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/BlockoutMaterials/M_NewMaterial5",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/Street01/Materials/M_Street01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/Street01/Textures/T_Street01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/Street01/Textures/T_Street01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Materials/Street01/Textures/T_Street01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_01",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_02",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_03",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_04",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_05",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_06",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_07",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_08",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_09",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_10",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_11",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_12",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SKM_Yoshino_Cherry_Branch_13",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_01",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_02",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_03",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_04",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_05",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_06",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_07",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_08",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_09",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_10",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_11",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_12",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/SK_Yoshino_Cherry_Branch_13",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_02",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_03",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_04",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_05",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_06",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_07",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_08",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_09",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_10",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_11",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_12",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Instances/Yoshino_Cherry_Branch_13",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Materials/MI_Yoshino_Cherry_01_Bark",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Materials/MI_Yoshino_Cherry_01_Foliage",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Textures/T_PVE_MeshDisplacement_02",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Textures/T_Yoshino_Cherry_01_Bark_C",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Textures/T_Yoshino_Cherry_01_Bark_NAH",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Textures/T_Yoshino_Cherry_01_Foliage_CA",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Textures/T_Yoshino_Cherry_01_Foliage_NT",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Tree_Yoshino_Cherry_01/SK_Yoshino_Cherry_01_A",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Tree_Yoshino_Cherry_01/SK_Yoshino_Cherry_01_A_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Tree_Yoshino_Cherry_01/SK_Yoshino_Cherry_01_B",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Tree_Yoshino_Cherry_01/SK_Yoshino_Cherry_01_B_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Tree_Yoshino_Cherry_01/SK_Yoshino_Cherry_01_C",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Tree_Yoshino_Cherry_01/SK_Yoshino_Cherry_01_C_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Tree_Yoshino_Cherry_01/SK_Yoshino_Cherry_01_D",
+                         "Class":  "SkeletalMesh",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Megaplant_Library/Tree_Yoshino_Cherry/Tree_Yoshino_Cherry_01/SK_Yoshino_Cherry_01_D_Skeleton",
+                         "Class":  "Skeleton",
+                         "Source":  "Fab:Megaplant_Library"
+                     },
+                     {
+                         "Package":  "/idk/Models/Apartment01/Materials/M_Apartment01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Apartment01/SM_Apartment01_balcony",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Apartment01/SM_Apartments01_trim1",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Apartment01/SM_Apartments01_trim2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Apartment01/SM_Apartments01_wall",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Apartment01/Textures/T_Apartments01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Apartment01/Textures/T_Apartments01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Apartment01/Textures/T_Apartments01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/Materials/M_BG_Building01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/SM_BG_Building01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/SM_BG_Building02",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/SM_BG_Building03",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/SM_BG_Building04",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/SM_BG_Building05",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/Textures/T_BG_Buildings_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/Textures/T_BG_Buildings_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BG_Buildings/Textures/T_BG_Buildings_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Bot/Materials/M_Bottington",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Bot/SM_Bottington",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Bot/SM_Bottington2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Bot/Textures/T_Bot_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Bot/Textures/T_Bot_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Bot/Textures/T_Bot_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Bot/Textures/T_Bot__OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/Materials/M_B01_Corner01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/Materials/M_B01_Mid01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/SM_BuildCorner01_low",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/SM_BuildMid01_low",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/Textures/T_B_01_corner01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/Textures/T_B_01_corner01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/Textures/T_B_01_corner01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/Textures/T_B_01_mid01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/Textures/T_B_01_mid01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Building01/Textures/T_B_01_mid01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BuildingPaneling01/Materials/M_BuildingPaneling01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BuildingPaneling01/SM_BuildingPaneling01A",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BuildingPaneling01/SM_BuildingPaneling01B",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BuildingPaneling01/Textures/T_BuildingPaneling01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BuildingPaneling01/Textures/T_BuildingPaneling01_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BuildingPaneling01/Textures/T_BuildingPaneling01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/BuildingPaneling01/Textures/T_BuildingPaneling01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Materials/M_CablePower",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Materials/M_Material_003",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Materials/M_Material_004",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Materials/M_Material_005",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Materials/M_Material_006",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Materials/M_Material_007",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Materials/M_Material_008",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Materials/M_Material_009",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_CableTower01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_CableTower01_box",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_CableTower01_box2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_CableTower01_canisters",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_Cable_Antenna1",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_Cable_Antenna2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_Cable_Antenna3",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_Cable_Port",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_Cable_Vent",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_CablesLarge",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/SM_Girder",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Textures/T_Cables01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Textures/T_Cables01_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Textures/T_Cables01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Cables/Textures/T_Cables01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/ConcreteWalls/Materials/M_ConcreteWalls01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/ConcreteWalls/SM_ConcretePillar01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/ConcreteWalls/SM_ConcreteWall01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/ConcreteWalls/SM_ConcreteWall02",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/ConcreteWalls/Textures/T_ConcreteWalls01_Base_Color",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/ConcreteWalls/Textures/T_ConcreteWalls01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/ConcreteWalls/Textures/T_ConcreteWalls01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/MI_Decal_Paintline_white_Inst",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_DecalFace",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_DecalFace03",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_DecalFace1",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_CC0",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_CC0_Horiz",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_Ground01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_Num01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_Num02",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_Num03",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_Paintline01_Red",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_Paintline_red",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_WallGraphic1",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/M_Decal_WallGraphic2",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/T_Decal_Skelly",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Materials/T_Decal_Skelly_Emis",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_CC0",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_CC01",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_Face02",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_Face03",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_Num_01",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_Num_02",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_Num_03",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_PaintLine01",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_RedLine",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_Skellyface",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Decal_WallGraphic01",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Decals/Textures/T_Ground_Decal01",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01/Materials/M_Entrance01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01/SM_Entrance01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01/SM_Entrance01_Door",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01/Textures/T_Entrance01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01/Textures/T_Entrance01_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01/Textures/T_Entrance01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01/Textures/T_Entrance01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01_Top/Materials/M_EntranceTop01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01_Top/SM_Entrance01top",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01_Top/Textures/T_Entrance01top_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01_Top/Textures/T_Entrance01top_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01_Top/Textures/T_Entrance01top_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance01_Top/Textures/T_Entrance01top_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/Materials/M_Entrance02",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/SM_Entrance02",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/SM_EntrancePipes",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/SM_EntranceTrim1",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/SM_EntranceTrim2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/Textures/T_Entrance02_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/Textures/T_Entrance02_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/Textures/T_Entrance02_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Entrance02/Textures/T_Entrance02_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/LightProps/Materials/M_Lightpole01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/LightProps/SM_Curbstep",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/LightProps/SM_LightPole01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/LightProps/Textures/T_Lightpole01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/LightProps/Textures/T_Lightpole01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/LightProps/Textures/T_Lightpole01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/Materials/M_Pipes1",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_Pipe1",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_Pipe1_3",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_Pipe1_4",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_Pipe1_5",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_Pipe1_T",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_Pipe1_X",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_PipeCap",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_PipeCon",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_PipeSM1",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_PipeSM2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_PipeSM3",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_PipeSM4",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_PipeSM5",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/SM_Pipes_Frame",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/Textures/T_Pipes_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/Textures/T_Pipes_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Pipes/Textures/T_Pipes_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerBox/Materials/M_PowerBox",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerBox/SM_PowerBox",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerBox/Textures/T_PowerBox_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerBox/Textures/T_PowerBox_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerBox/Textures/T_PowerBox_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerBox/Textures/T_PowerBox_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerCar/Materials/M_PowerCar",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerCar/SM_ChargeHose_01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerCar/SM_PowerCar",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerCar/SM_PowerCar_02",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerCar/Textures/T_PowerCar_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerCar/Textures/T_PowerCar_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerCar/Textures/T_PowerCar_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/PowerCar/Textures/T_PowerCar_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/Materials/M_RollDoor",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/SM_DoorLight01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/SM_RollDoor01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/SM_RollDoor01_A",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/SM_RollDoor01_B",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/Textures/T_RollDoor_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/Textures/T_RollDoor_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/Textures/T_RollDoor_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RollDoor01/Textures/T_RollDoor_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RoofTop/Materials/M_RoofTop",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RoofTop/SM_RoofTop_Wall",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RoofTop/SM_RoofTop_sign",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RoofTop/SM_RoofTop_vent",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RoofTop/Textures/T_RoofTop_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RoofTop/Textures/T_RoofTop_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RoofTop/Textures/T_RoofTop_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/RoofTop/Textures/T_RoofTop_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SideWalk/Materials/M_SideWalk",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SideWalk/SM_Railing01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SideWalk/SM_Railing02",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SideWalk/SM_SideWalk01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SideWalk/SM_Sidewalk02",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SideWalk/Textures/T_Sidewalk_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SideWalk/Textures/T_Sidewalk_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SideWalk/Textures/T_Sidewalk_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SkyTower/Materials/M_SkyTower",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SkyTower/SM_SkyTower1",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SkyTower/SM_SkyTower2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SkyTower/SM_SkyTower3",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SkyTower/Textures/T_SkyTower_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SkyTower/Textures/T_SkyTower_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SkyTower/Textures/T_SkyTower_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/SkyTower/Textures/T_SkyTower_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Skybridge/Materials/M_Skybridge",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Skybridge/SM_SkyBridge",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Skybridge/SM_SkyBridge_panel",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Skybridge/Textures/T_Skybridge_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Skybridge/Textures/T_Skybridge_Emissive",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Skybridge/Textures/T_Skybridge_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Skybridge/Textures/T_Skybridge_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Materials/MI_Tower8x_Inst",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Materials/MI_Tower8x_Inst1",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Materials/MI_Tower8x_Inst2",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Materials/MI_Tower8x_Inst3",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Materials/M_Tower8x",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/SM_Tower8x",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Textures/T_Tower8x_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Textures/T_Tower8x_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Textures/T_Tower8x_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Tower8x/Textures/T_Tower8x_PanelMask",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall01/Materials/M_Wall01",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall01/SM_Wall01_L0",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall01/Textures/T_Wall01_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall01/Textures/T_Wall01_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall01/Textures/T_Wall01_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/Materials/MI_Wall6x_Inst",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/Materials/MI_Wall6x_Inst1",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/Materials/MI_Wall6x_Inst2",
+                         "Class":  "MaterialInstanceConstant",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/Materials/M_Wall6x",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/SM_Wall6x_01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/Textures/T_Wall6x_01_Mask",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/Textures/T_Wall6x_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/Textures/T_Wall6x_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Wall6x/Textures/T_Wall6x_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/Materials/M_Workshop",
+                         "Class":  "Material",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Table01",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Table01_Shelf",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Cont1",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Cont2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Cont3",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Cont4",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Cont5",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Cont6",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Tool1",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Tool2",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Tool3",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Tool4",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Tool5",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_Tool6",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/SM_Workshop_drawers",
+                         "Class":  "StaticMesh",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/Textures/T_Workshop_BaseColor",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/Textures/T_Workshop_Normal",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     },
+                     {
+                         "Package":  "/idk/Models/Workshop/Textures/T_Workshop_OcclusionRoughnessMetallic",
+                         "Class":  "Texture2D",
+                         "Source":  "Fab:LowerSector"
+                     }
+                 ]
+}
