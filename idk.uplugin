@@ -22,6 +22,10 @@
 		{
 			"Name": "Other5Characters",
 			"Enabled": true
+		},
+		{
+			"Name": "Other5ForestBiome_Minimal",
+			"Enabled": true
 		}
 	]
 }
